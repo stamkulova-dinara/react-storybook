@@ -1,0 +1,14 @@
+.progress-line{
+    background-color: rgba(0,0,0,0.1);
+    height: 1px;
+    margin-bottom: 40px;
+    width: 610px;
+    margin-left: 12px;
+}
+.progress-fill{
+    height: 3px;
+    background-color: white;
+    border-radius: 100px;
+    transform: translateY(-1px);
+    width: 0px; 
+}

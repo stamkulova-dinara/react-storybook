@@ -1,0 +1,59 @@
+.content-wrap {
+	margin: auto;
+	padding-bottom: 20px;
+}
+.content-block {
+	margin-left: 80px;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 20px 0px 30px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	width: 460px;
+	height: 326px;
+}
+.content-btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
+.pomodoro-timer {
+	font-size: 120px;
+	font-weight: 700;
+	margin-top: 20px;
+	height: 146px;
+}
+.pomodoro-start {
+	position: relative;
+}
+
+.pomodoro-skip {
+	width: calc((100% - 200px) / 2 + 5%);
+	position: absolute;
+	right: 0px;
+	bottom: -1px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pomodoro-skip button {
+	cursor: pointer;
+	user-select: none;
+	background: none;
+	border: none;
+	width: 28px;
+	height: 28px;
+	align-items: center;
+	justify-content: center;
+	bottom: 9px;
+	right: -50px;
+	pointer-events: none;
+	transition: all 0.2s ease-out 0s;
+}
+
+.pomodoro-skip img {
+	width: 17px;
+	height: 21px;
+	opacity: 0.9;
+}

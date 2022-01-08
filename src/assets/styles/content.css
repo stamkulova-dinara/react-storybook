@@ -1,0 +1,52 @@
+.content-wrap {
+	padding: 0px 12px;
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+.main-content {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.contain-pomodoro {
+	background: rgb(219, 82, 77);
+	transition: all 0.4s ease;
+}
+
+.contain-longbreak {
+	background: #468e91;
+	transition: all 0.4s ease;
+}
+
+.contain-shortbreak {
+	background: #437ea8;
+	transition: all 0.4s ease;
+}
+
+.contain-pomodoro .start-btn {
+	color: rgb(219, 82, 77);
+	transition: all 0.4s ease;
+}
+
+.contain-longbreak .start-btn {
+	color: #468e91;
+	transition: all 0.4s ease;
+}
+
+.contain-shortbreak .start-btn {
+	color: #437ea8;
+	transition: all 0.4s ease;
+}
+
+.contain-pomodoro .pomodoro {
+	background: rgb(0, 0, 0, 0.15);
+}
+
+.contain-shortbreak .shortbreak {
+	background: rgb(0, 0, 0, 0.15);
+}
+
+.contain-longbreak .longbreak {
+	background: rgb(0, 0, 0, 0.15);
+}

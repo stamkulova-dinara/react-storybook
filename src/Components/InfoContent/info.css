@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.info-wrap {
+	background: white;
+	margin: 0 auto;
+	height: 78px;
+	width: 620px;
+	left: 267px;
+	top: 760px;
+	border-radius: nullpx;
+	    color: hsl(357, 50%, 22%);
+}
+.info-wrap h1 {
+	margin: 40px 0px;
+}
+.info-wrap ol {
+	padding-inline-start: 24px;
+}
+.info-wrap ul {
+	padding-inline-start: 24px;
+}
+ul {
+	list-style: none;
+}
+ul li::before {
+	color: hsl(357, 74%, 67%);
+	content: "\2022";
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+h2 {
+	font-family: "Montserrat", sans-serif;
+	margin: 40px 0px 10px;
+}
+.info-wrap p {
+	font-weight: 400;
+}
+.red-line {
+	width: 50px;
+	height: 0px;
+	left: 267px;
+	top: 936px;
+	border: 2px solid #cf8683;
+	background: #e49c99;
+}
+.info {
+	margin-bottom: 30px;
+}
+.info span {
+	color: red;
+}

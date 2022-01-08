@@ -1,0 +1,31 @@
+.header-wrap {
+	padding: 15px 12px;
+	max-width: 620px;
+	margin: auto;
+}
+
+.header-content {
+	background-color: inherit;
+	width: 620px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-title {
+	display: inline-block;
+	color: white;
+	margin: 0px;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+.check {
+	width: 20px;
+	margin-right: 4px;
+}
+.btn-wrap {
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.confirm-wrap {
+	height: 195px;
+	width: 485px;
+	border-radius: 6px;
+	padding: 40px;
+	color: black;
+	background: white;
+	margin-left: -80px;
+}
+.confirm-inner-wrap p {
+	display: flex;
+	justify-content: left;
+	text-align: left;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.confirm-buttons button {
+	outline: none;
+	border: 1px solid rgb(75, 72, 72);
+	border-radius: 6px;
+}
+.confirm-buttons {
+	text-align: right;
+}
+.confirm-buttons div {
+	display: inline-block;
+	padding-left: 10px;
+}
+.btnOk {
+	width: 63px;
+	height: 37px;
+	background-color: #373737;
+	color: white;
+}
+.btnNo {
+	width: 83px;
+	height: 37px;
+	color: 	#373737;
+}

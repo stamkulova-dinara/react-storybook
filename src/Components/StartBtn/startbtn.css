@@ -1,0 +1,17 @@
+.start-btn {
+	cursor: pointer;
+	border: none;
+	margin: 20px 0px 0px;
+	padding: 0px 12px;
+	border-radius: 4px;
+	font-size: 22px;
+	height: 55px;
+	color: rgb(219, 82, 77);
+	font-weight: bold;
+	width: 200px;
+	background-color: white;
+	transition: color 0.5s ease-in-out 0s;
+}
+.start-btn:active {
+    transform: translateY(4px);
+  }
