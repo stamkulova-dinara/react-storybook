@@ -1,0 +1,17 @@
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pomodoro {background-color: #db524d;}
+  .short_break {background-color: #437ea8;}
+  .long_break {background-color: #468e91;}
+
+/*# sourceMappingURL=main.9f2d681b.chunk.css.map*/
